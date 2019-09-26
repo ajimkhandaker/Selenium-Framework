@@ -1,0 +1,39 @@
+plugins {
+    id 'com.gradle.build-scan' version '1.15.2'
+    id 'java'
+}
+
+group 'com.uiautomator'
+version '1.1'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.14.0'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.14.0'
+
+    compile group: 'com.aventstack', name: 'extentreports', version: '3.1.5'
+    testCompile group: 'com.aventstack', name: 'extentreports', version: '3.1.5'
+
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+    testCompile group: 'commons-io', name: 'commons-io', version: '2.6'
+
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.1'
+    testCompile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.1'
+
+    compile group: 'com.google.inject', name: 'guice', version: '4.0'
+    testCompile group: 'com.google.inject', name: 'guice', version: '4.0'
+
+    compile group: 'org.apache.poi', name: 'poi', version: '3.17'
+    testCompile group: 'org.apache.poi', name: 'poi', version: '3.17'
+
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
+    testCompile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
+
+    compile group: 'org.testng', name: 'testng', version: '6.8'
+    testCompile group: 'org.testng', name: 'testng', version: '6.8'
+}

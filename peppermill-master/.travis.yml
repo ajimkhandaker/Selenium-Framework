@@ -1,0 +1,6 @@
+language: java
+before_install: 
+  - cd ./peppermill-java
+  - chmod a+x gradlew
+  - ./gradlew clean
+  - ./gradlew build
