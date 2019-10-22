@@ -3,7 +3,6 @@ A lightweight selenium webdriver framework
 
 **Latest release: [1.1]**<br/>
 **Downloads:** [peppermill-java-1.1.jar](https://github.com/urssamthota/peppermill/tree/master/peppermill-java/build/libs/peppermill-java-1.1.jar?raw=true)<br/>
-**Documentation:** [Click here](https://urssamthota.github.io/peppermill/javadoc/index.html?com/uiautomator/peppermill/Peppermillinitialize.html) <br/>
 **Continuous Integration:** [![Build Status](https://travis-ci.com/urssamthota/peppermill.svg?token=JwyKkyDWiQ3uwcGRM6ek&branch=master)](https://travis-ci.com/urssamthota/peppermill) <br/>
 **Continuous Deployment:** Coming soon ...<br>
 **Maven central repository:** Coming soon ...<br>
